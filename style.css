@@ -1,0 +1,188 @@
+
+:root {
+    --primary-color:#19647E;
+    --secondary-color:rgb(96, 215, 221);
+    --third-color:#4B3F72;
+    --fourth-color:#1f2041;
+    --fifth-color:#f1ac22;
+}
+
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Philosopher', Arial, Helvetica, sans-serif !important;
+}
+
+
+/* -----------Nav Bar--------- */
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    padding: 0 !important;
+    
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+    
+}
+
+.navbar-brand a {
+    color: var(--fifth-color) !important;
+}
+
+.navbar a {
+    color: #fff !important;
+}
+
+.fa-bars {
+    color: white !important;
+    font-size: 30px !important;
+}
+
+.navbar-nav li a {
+    font-weight: 600;
+    float: right;
+    text-align: center;
+}
+
+
+
+/* --------------Banner---------------- */
+#banner {
+    background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding-top: 5%;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.bottom-img {
+    width: 100%;
+    
+}
+
+
+
+#first {
+    color: var(--fifth-color);
+    font-size: 60px;
+}
+
+.second {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.fa-arrow-down {
+    margin-top: 100px;
+    color: var(--fifth-color);
+}
+
+
+/* --------------About Me---------------- */
+.jumbotron-fluid {
+    background-color: transparent !important;
+}
+
+.card-body img  {
+   width: 50px;
+   height: 50px;
+}
+
+
+
+/* ---------------Projects--------------- */
+
+#projects {
+    margin: 20px;
+}
+
+.card-deck {
+    max-width: 90%;
+    max-height: 40%;
+}
+
+.card {
+    margin: 40px;
+}
+
+
+
+.card-footer button {
+    margin: 5px;
+    
+}
+
+
+
+/* --------------Old Work-------------- */
+#oldWork {
+    text-align: center;
+    margin: 100px;
+    font-style: italic;
+}
+
+#oldWork button {
+    margin-top: 30px;
+}
+
+
+/* -----------Footer--------- */
+footer {
+    background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    padding-top: 30px;
+}
+
+footer h3 {
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.links a {
+    padding: 20px;
+    color: var(--fifth-color);
+    float: right;
+}
+
+
+/* Meida    Queries */
+
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 100%;
+    }
+    .card-deck {
+        min-width: 100%;
+        min-height: 50%;
+    }
+    
+    .card {
+        margin: 0;
+    }
+}
+    
+    

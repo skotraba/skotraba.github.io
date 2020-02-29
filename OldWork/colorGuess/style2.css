@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4B3F72;;
+    ;
+    font-family: 'Shadows Into Light', Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    position: absolute;
+    top:20%;
+    left:30%;
+    margin: 0;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    
+}
+
+.info {
+    justify-content: space-between;
+    position: relative;
+    padding: 2em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(204, 204, 203);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    max-width: 50%;
+    padding: 1em;
+    margin: 1em;
+    
+}
+
+button {
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 1em;
+    border: none;
+    min-width: 20%;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    position: relative;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+button:focus:active {
+    outline: 0;
+}
+
+button:hover {
+    background-color: transparent !important;
+    box-shadow: none;
+    outline: none;
+}
+
+#playAgain {
+    font-size: 20px;
+    background-color: darkgrey;
+}
+
+#playAgain:hover {
+    background-color: transparent;
+}
+
+#correct  {
+    color:red;
+}
+
+@media screen and (max-width: 800px) {
+    .game {
+        max-width: 95%;
+        top: 10%;
+        left: 2%;
+        min-height: 80%;
+    }
+
+    .container {
+        max-width: 50%;
+        min-height: 50%;
+    }
+
+    button {
+        font-size: 150%;
+    }
+    #playAgain {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .info {
+        max-width: 40%;
+        font-size: 10px;
+    }
+}

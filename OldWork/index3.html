@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content='"width=device-width, initial-scale=1.0"'>
+        <title>Shannon Kotraba</title>
+        <link rel='stylesheet' href='style3.css'>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    </head>
+    <body class="animated fadeIn" >
+        <header>
+            <div class='container'>
+                <div id='branding'>
+                    <h1><span class='highlight'>Shannon</span> Kotraba</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li class='current'><a href='#'>Home</a></li>
+                        <li><a href='#show'>Projects</a></li>
+                        <li><a href='#showJProjects'>JS Games</a></li>
+                        <li><a href='#showC'>Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        
+
+        <!--Modal-->
+        <div class='modal-container' id='modal'>
+            <div class='modal'>
+                <button class='close-btn' id='close'>
+                    Close
+                </button>
+                <div class='modal-header'>
+                    <h1>Resume</h1>
+                </div>
+                <div>
+                    <!-- Keep as jpg -->
+                    <img src='/Portfolio2/image/Capture.jpg'>
+                </div>
+            </div>
+        </div>
+
+        <section class="animated fadeIn" id='showcase'>
+            <div class='container'>
+                <h1>Passionate About Software</h1>
+                <p class="animated fadeIn"><span id='hello'><i class="fa fa-leaf"></i> Hello</span> I'm Shannon Kotraba</p>
+                <p class="animated fadeIn delay-1s">Aspiring <span class='software'>Software Developer</span></p>
+                <p class="animated fadeIn delay-2s">Located in <span class='raleigh'>Raleigh, NC</span></p>
+                
+            </div>
+        </section>
+
+        <div class='containersomething'></div>
+
+        <section class='something'>
+            <div class='container'>
+                <h1>About Me <button class='open-btn' id='open'>Resume</button> </h1>
+                    
+            </div>
+            <div class='container'>
+                <p class='about'>
+                    I have always been motivated to work at a job that I am passionate about.  I joined the military and gained the confidence I needed to take risks for what matters most to me. I went to college to study Chemistry, but after working at an internship as an analytical chemist I found that I still wasn't fulfilled in my career and made the decision to learn how to program.  I felt limited as a chemist in terms of opportunities and programming offers no shortage of areas to learn and grow intellectually.  I love being able to use creativity and logic to create things that I am proud of. I am passionate about learning and programming gives me something greater than a job.
+                </p>
+            </div>
+        </section>
+
+        <div class='containersomething'></div>
+
+        <h1 class='projects' id='heading'>Projects</h1>
+        <a id='show'></a>
+        <div class='boxsection''>
+            <div class='box'>
+                <img src='./image/colorPicker.png'>
+                    <h3>Color Picker</h3>
+                    <p>A window that shows a color wheel and allows the user to select a color.  Based on the user selection, two other colors are generated to show a triadic color scheme.  A useful program for artist and designers.  The values were calculated using properties of an equilateral triangle.  Written in C++ using the SFML library for graphics.</p>
+                <button class='btn' id='showCode1'>View Code</button>   
+            </div>
+            
+            <div class='box'>
+                <img src='./image/library2.png'>
+                    <h3>Library Management System</h3>
+                    <p>A console command program that manages books in a library.  A librarian can log in with an admin password and add new books to the library, check out books and see what is unavailable.  A student can create their own username and password and see which books are available.  The books are saved in different text files depending on their availability.  Written in C++.</p>
+                <button class='btn' id='showCode1'>View Code</button>  
+            </div>
+            <div class='box'>
+                <img src='./image/Recipe1.png'>
+                    <h3>Recipe Calculator</h3>
+                    <p>A console command program that allows the user to input recipe info. The user is prompted to add ingredients listing calories and weight.  After adding recipes the user can view the recipe or calculate total calories and calories based on serving size or weight. Written in Python.</p>
+                <button class='btn'id='showCode1'>View Code</button>
+            </div>
+
+        </div>
+
+        <div class='clearfix'></div>
+        <div class='containersomething'></div>
+        
+        <h1 class='projects'>Javascript Games</h1>
+        <a id='showJProjects'></a>
+        <div class="boxsection"> 
+            <div class='box'>
+                <img src='./image/GuessColor.png'>
+                <h3>Color Guessing Game!</h3>
+                <p>A random color is picked from an array of nine different colors.  The Red, Green, Blue value is displayed and the user can click on the circles to guess which color matches the values presented.  If they guess wrong, the incorrect option dissapears and they can try until they get it correct.  The play again button refreshes the browser to restart the game.</p>
+                <button class='btn'id='playGame1'>Play Game!</button>
+                <button class='btn'id='showCode1'>View Code</button>
+            </div>
+        </div> 
+       
+    
+        <div class='clearfix'></div>
+        <div class='containersomething'></div>
+        
+        <footer>
+            <a id='showC'></a>
+            <h2>Contact Me At: <span class='contactIcon'>
+                <a href="https://github.com/skotraba"> <i class="fa fa-github"></i></a> 
+                <a href="https://www.linkedin.com/in/shannon-kotraba-346290126"> <i class="fa fa-linkedin"></i></a> 
+            </span> </h2>     
+        </footer>
+
+        <script src='script3.js'></script>
+        <script src='jscript.js'></script>
+        <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+       
+    </body>
+</html>

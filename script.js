@@ -26,5 +26,5 @@ showCode1.addEventListener('click', () => {
 //Direct to play guess color game
 const playGuess = document.getElementById('playGame1');
 playGuess.addEventListener('click', () => {
-    location.href = './Portfolio2/colorGuess/index2.html';
+    location.href = './OldWork/colorGuess/index2.html';
 })

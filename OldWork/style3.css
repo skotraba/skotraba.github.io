@@ -322,7 +322,7 @@ footer {
 }
 
 footer i {
-    color:var(--secondary-color)
+    color:var(--secondary-color);
     font-size: 30px;
 }
 

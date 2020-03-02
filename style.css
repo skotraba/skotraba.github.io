@@ -124,7 +124,7 @@ body{
     max-height: 30%;
 }
 
-.card {
+.card.project {
     margin: 20px;
     transition: transform .2s;
    
@@ -138,7 +138,7 @@ body{
     font-style: italic;
 }
 
-.card:hover {
+.card.project:hover {
     transform: scale(1.1);
     overflow: visible;
     position: initial;

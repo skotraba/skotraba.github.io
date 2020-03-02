@@ -121,17 +121,28 @@ body{
 
 .card-deck {
     max-width: 90%;
-    max-height: 40%;
+    max-height: 30%;
 }
 
 .card {
-    margin: 40px;
+    margin: 20px;
+    transition: transform .2s;
+   
 }
-
-
 
 .card-footer button {
     margin: 5px;
+    
+}
+
+.notHosted {
+    font-style: italic;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    overflow: visible;
+    position: initial;
     
 }
 
@@ -184,6 +195,11 @@ footer h3 {
     
     .card {
         margin: 0;
+        transition: none;
+    }
+
+    .card:hover {
+        transform: none;
     }
 
     

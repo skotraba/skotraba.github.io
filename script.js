@@ -23,6 +23,12 @@ showCode1.addEventListener('click', () => {
     window.open('https://github.com/skotraba/Recipe-Calculator');
 });
 
+//Show Code for Mock Website
+const showCode5 = document.getElementById('showCode5');
+showCode5.addEventListener('click', () => {
+    window.open('https://github.com/skotraba/CoffeeSite');
+});
+
 //Direct to play guess color game
 const playGuess = document.getElementById('playGame1');
 playGuess.addEventListener('click', () => {

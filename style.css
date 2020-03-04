@@ -159,6 +159,10 @@ body{
 }
 
 
+
+/*---------------- Contact Section------------ */
+
+
 /* -----------Footer--------- */
 footer {
     background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
@@ -170,12 +174,12 @@ footer {
 footer h3 {
     color: white;
     font-weight: bold;
-    margin-top: 30px;
+    
 }
 
-.links a {
-    padding: 10px;
-    color: var(--fifth-color);
+ a {
+    padding: 5px;
+    color: white !important;
     /* float: right; */
 }
 

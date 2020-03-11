@@ -119,30 +119,31 @@ body{
     margin: 20px;
 }
 
-.card-deck {
-    max-width: 90%;
-    max-height: 30%;
-}
+.card-deck .card{
+    padding-bottom:50px;
+    }
 
 .card.project {
     margin: 20px;
-    transition: transform .2s;
-   
+    min-width: 30%;
 }
 
-.card-footer button {
-    margin: 5px;
-}
+
+.card-footer{
+    position:absolute;
+      bottom:0;
+      width:100%;
+    }
 
 .notHosted {
     font-style: italic;
 }
 
 .card.project:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+    transition: transform 1s; 
     overflow: visible;
     position: initial;
-    
 }
 
 

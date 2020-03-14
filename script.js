@@ -20,7 +20,7 @@ showCode4.addEventListener('click', () => {
 //Show Code for Recipe Calculator
 const showCode1 = document.getElementById('showCode4');
 showCode1.addEventListener('click', () => {
-    window.open('https://github.com/skotraba/Recipe-Calculator');
+    window.open('https://github.com/skotraba/RecipeCalculatorGUI');
 });
 
 //Show Code for Mock Website

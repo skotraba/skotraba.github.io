@@ -29,6 +29,18 @@ showCode5.addEventListener('click', () => {
     window.open('https://github.com/skotraba/CoffeeSite');
 });
 
+//Show Code for IT Game
+const showCode6 = document.getElementById('showCode6');
+showCode6.addEventListener('click', () => {
+    window.open('https://github.com/skotraba/ITGame');
+});
+
+//Show Code for Spanish Learning
+const showCode7 = document.getElementById('showCode7');
+showCode7.addEventListener('click', () => {
+    window.open('https://github.com/skotraba/SpanishLearn');
+});
+
 //Direct to play guess color game
 const playGuess = document.getElementById('playGame1');
 playGuess.addEventListener('click', () => {
